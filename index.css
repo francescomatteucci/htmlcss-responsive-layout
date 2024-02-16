@@ -36,7 +36,7 @@ strong {
 
 /* UTILITES */
 
-.containe {
+.contain{
     border: 2px solid black;
 }
 
@@ -89,6 +89,9 @@ strong {
     line-height: 30px;
 }
 
+.gap-40{
+    gap:40px;
+}
 
 /*********** HEADER SECTION **********/
 
@@ -190,6 +193,12 @@ header {
     border: 1px solid transparent;
     border-radius: 60px;
     padding: 40px;
+    
+}
+
+.row-section {
+    display: block;
+
 }
 
 /* ***************************************************** */
@@ -218,6 +227,17 @@ header {
 /* DESKTOP QUERY's */
 
 @media (min-width:1200px) {
+    
+    .container{
+        max-width: 1000px;
+    }
+
+    .container-sm {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
     .navigation {
         display: flex;
     }
@@ -263,6 +283,14 @@ header {
 
     }
 
+    .row-section{
+        display:flex;
+    }
 
+    .app-card{
+        margin-top: 80px;
+        margin-left: 100px;
 
+    }   
+    
 }
