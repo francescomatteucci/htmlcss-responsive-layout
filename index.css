@@ -57,6 +57,10 @@ strong {
 
 }
 
+.bg-viola {
+    background-color: rgba(151, 146, 228, 1);
+}
+
 .text-center {
     text-align: center;
 }
@@ -77,6 +81,15 @@ strong {
     flex-wrap: wrap;
 }
 
+.paddingtop-40 {
+    padding-top: 40px;
+}
+
+.line-height-20 {
+    line-height: 30px;
+}
+
+
 /*********** HEADER SECTION **********/
 
 header {
@@ -84,7 +97,6 @@ header {
 }
 
 .container {
-
     max-width: 576px;
     margin: 0 auto;
     padding: 20px;
@@ -162,12 +174,23 @@ header {
 
 }
 
-
-
 [class^='col-']>.card {
     height: 100%;
 }
 
+
+.arrow-button {
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.app-card {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 60px;
+    padding: 40px;
+}
 
 /* ***************************************************** */
 /* MEDIA QUERY RESPONSIVE */
@@ -220,7 +243,6 @@ header {
         border: 1px solid transparent;
         border-radius: 10px;
         padding: 40px;
-
 
     }
 
